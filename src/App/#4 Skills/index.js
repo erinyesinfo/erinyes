@@ -3,7 +3,7 @@ import { Element } from 'react-scroll';
 import './index.css';
 
 // icons
-import { Html5, Css3, Bootstrap, JavaScript, JQuery, Reactjs, Reduxjs, Photoshope, Illustration, AfterEffects, ReactNative, Nodejs, MySQL, MongoDB, Git, Agile, Nextjs, Sass, EJS, PUG, HBS, RestApi, Graphql, CLanguage, Python, PHP, Linux } from './Icons';
+import { Html5, Css3, Bootstrap, JavaScript, JQuery, Git, Reactjs, Reduxjs, ReactNative, Photoshope, Illustration, AfterEffects, Angular, Python, Nodejs, MySQL, MongoDB, TypeScript, Agile, Nextjs, Sass, EJS, PUG, HBS, RestApi, Graphql, CLanguage, PHP, Linux } from './Icons';
 
 const Skills = () => {
     const Theme = localStorage.getItem('theme') || null;
@@ -56,6 +56,10 @@ const Skills = () => {
                                 <hr className='skills-hr hr-jquery' />
                             </div>
                             <div className='skills-language'>
+                                <Git /> &nbsp;<span className={mouseInAnimate === 'git' ? 'animate_infinity_strongest_mouseIn_skill':''} onMouseEnter={() => setMouseInAnimate('git')} onMouseLeave={() => setMouseInAnimate('')}>Git</span>
+                                <hr className='skills-hr hr-git' />
+                            </div>
+                            <div className='skills-language'>
                                 <Reactjs /> &nbsp;
                                 <span className={mouseInAnimate === 'react' ? 'animate_infinity_strongest_mouseIn_skill':''} onMouseEnter={() => setMouseInAnimate('react')} onMouseLeave={() => setMouseInAnimate('')}>React</span>
                                 <hr className='skills-hr hr-react' />
@@ -64,6 +68,11 @@ const Skills = () => {
                                 <Reduxjs /> &nbsp;
                                 <span className={mouseInAnimate === 'redux' ? 'animate_infinity_strongest_mouseIn_skill':''} onMouseEnter={() => setMouseInAnimate('redux')} onMouseLeave={() => setMouseInAnimate('')}>Redux</span>
                                 <hr className='skills-hr hr-redux' />
+                            </div>
+                            <div className='skills-language'>
+                                <ReactNative /> &nbsp;
+                                <span className={mouseInAnimate === 'reactnative' ? 'animate_infinity_strongest_mouseIn_skill':''} onMouseEnter={() => setMouseInAnimate('reactnative')} onMouseLeave={() => setMouseInAnimate('')}>React Native</span>
+                                <hr className='skills-hr hr-reactnative' />
                             </div>
                             <div className='skills-language'>
                                 <Photoshope /> &nbsp;
@@ -88,9 +97,13 @@ const Skills = () => {
                                     Good
                                 </span>&nbsp;but lack of experience
                             </div>
-                            <div className={mouseInAnimate === 'reactnative' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('reactnative')} onMouseLeave={() => setMouseInAnimate('')}>
-                                <ReactNative /> React Native
-                                <hr className='skills-hr hr-reactnative' />
+                            <div className={mouseInAnimate === 'angular' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('angular')} onMouseLeave={() => setMouseInAnimate('')}>
+                                <Angular /> Angular
+                                <hr className='skills-hr hr-angular' />
+                            </div>
+                            <div className={mouseInAnimate === 'python' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('python')} onMouseLeave={() => setMouseInAnimate('')}>
+                                <Python /> Python
+                                <hr className='skills-hr hr-python' />
                             </div>
                             <div className={mouseInAnimate === 'node' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('node')} onMouseLeave={() => setMouseInAnimate('')}>
                                 <Nodejs /> Node, Express
@@ -104,9 +117,9 @@ const Skills = () => {
                                 <MySQL /> MySQL
                                 <hr className='skills-hr hr-mysql' />
                             </div>
-                            <div className={mouseInAnimate === 'git' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('git')} onMouseLeave={() => setMouseInAnimate('')}>
-                                <Git /> Git
-                                <hr className='skills-hr hr-git' />
+                            <div className={mouseInAnimate === 'typescript' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('typescript')} onMouseLeave={() => setMouseInAnimate('')}>
+                                <TypeScript /> TypeScript
+                                <hr className='skills-hr hr-typescript' />
                             </div>
                             <div className={mouseInAnimate === 'agile' ? 'skills-language animate_infinity_good_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('agile')} onMouseLeave={() => setMouseInAnimate('')}>
                                 <Agile /> Agile
@@ -156,10 +169,6 @@ const Skills = () => {
                             <div className={mouseInAnimate === 'php' ? 'skills-language animate_infinity_basic_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('php')} onMouseLeave={() => setMouseInAnimate('')}>
                                 <PHP /> PHP
                                 <hr className='skills-hr hr-php' />
-                            </div>
-                            <div className={mouseInAnimate === 'python' ? 'skills-language animate_infinity_basic_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('python')} onMouseLeave={() => setMouseInAnimate('')}>
-                                <Python /> Python
-                                <hr className='skills-hr hr-python' />
                             </div>
                             <div className={mouseInAnimate === 'linux' ? 'skills-language animate_infinity_basic_mouseIn_skill':'skills-language'} onMouseEnter={() => setMouseInAnimate('linux')} onMouseLeave={() => setMouseInAnimate('')}>
                                 <Linux /> Linux

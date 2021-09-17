@@ -97,6 +97,9 @@ class Header extends Component {
                     </div>
                     {!this.state.matches576 || this.state.showMenu ? (
                         <div className='header-navs'>
+                            <div className='header-navs-version'>
+                                <a className={this.state.Theme ? "version-scroll theme-black":"version-scroll"} rel="noopener noreferrer" href='https://erinyes.vercel.app' target='_blank'>V0</a>
+                            </div>
                             <div className='header-navs-portfolio'>
                                 <Link activeClass="active" className={this.state.Theme ? "portfolio-scroll theme-black":"portfolio-scroll"}
                                     to="portfolio" spy={true} smooth={true}

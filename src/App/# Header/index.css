@@ -41,13 +41,13 @@
     cursor: pointer;
 }.nav-menu svg { height: 20px; }
 
-.header-navs-portfolio, .header-navs-about, .header-navs-projects, .header-navs-skills {
+.header-navs-version, .header-navs-portfolio, .header-navs-about, .header-navs-projects, .header-navs-skills {
     margin-bottom: 5px;
 }
-.header-navs-portfolio a, .header-navs-projects a, .header-navs-about a, .header-navs-skills a, .header-navs-contact a {
+.header-navs-version a, .header-navs-portfolio a, .header-navs-projects a, .header-navs-about a, .header-navs-skills a, .header-navs-contact a {
     text-decoration: none;
     color: #818182
-}.header-navs-portfolio a:hover, .header-navs-projects a:hover, .header-navs-about a:hover, .header-navs-skills a:hover, .header-navs-contact a:hover {
+}.header-navs-version a:hover, .header-navs-portfolio a:hover, .header-navs-projects a:hover, .header-navs-about a:hover, .header-navs-skills a:hover, .header-navs-contact a:hover {
     color: #000;
     cursor: pointer;
 }.active {
@@ -55,7 +55,7 @@
     border-bottom: 1px solid cornflowerblue;
     cursor: default;
 }
-.header-navs-portfolio a.theme-black:hover, .header-navs-projects a.theme-black:hover, .header-navs-about a.theme-black:hover, .header-navs-skills a.theme-black:hover, .header-navs-contact a.theme-black:hover {
+.header-navs-version a.theme-black:hover, .header-navs-portfolio a.theme-black:hover, .header-navs-projects a.theme-black:hover, .header-navs-about a.theme-black:hover, .header-navs-skills a.theme-black:hover, .header-navs-contact a.theme-black:hover {
     color: #fff;
     cursor: pointer;
 }
@@ -193,10 +193,10 @@
         gap: 5px;
         margin: 10px 0 15px;
     }
-    .header-navs-portfolio a, .header-navs-projects a, .header-navs-about a, .header-navs-skills a, .header-navs-contact a {
+    .header-navs-version a, .header-navs-portfolio a, .header-navs-projects a, .header-navs-about a, .header-navs-skills a, .header-navs-contact a {
         display: block;
         width: 100%;
-    }.header-navs-portfolio a:hover, .header-navs-projects a:hover, .header-navs-about a:hover, .header-navs-skills a:hover, .header-navs-contact a:hover {
+    }.header-navs-version a:hover,.header-navs-portfolio a:hover, .header-navs-projects a:hover, .header-navs-about a:hover, .header-navs-skills a:hover, .header-navs-contact a:hover {
         color: white;
     }.header-navs-portfolio .active, .header-navs-projects .active, .header-navs-about .active, .header-navs-skills .active, .header-navs-contact .active {
         color: cornflowerblue;

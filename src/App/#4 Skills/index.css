@@ -59,16 +59,19 @@
 .hr-html5 { width: 70%; }
 .hr-css3 { width: 70%; }
 .hr-bootstrap { width: 70%; }
-.hr-javascript { width: 50%; }
-.hr-jquery { width: 50%; }
+.hr-javascript { width: 60%; }
+.hr-jquery { width: 60%; }
+.hr-git { width: 70%; }
 .hr-react { width: 80%; }
 .hr-redux { width: 80%; }
+.hr-reactnative { width: 70%; }
 /* good but lack experiance */
-.hr-reactnative { width: 60%; }
+.hr-angular { width: 60%; }
+.hr-python { width: 60%; }
 .hr-node { width: 60%; }
 .hr-mysql { width: 60%; }
 .hr-mongoDB { width: 60%; }
-.hr-git { width: 60%; }
+.hr-typescript { width: 60%; }
 .hr-ejs { width: 80%; }
 .hr-pug { width: 80%; }
 .hr-hbs { width: 80%; }
@@ -77,7 +80,6 @@
 /* basics */
 .hr-c { width: 20%; }
 .hr-php { width: 20%; }
-.hr-python { width: 20%; }
 .hr-linux { width: 20%; }
 
 

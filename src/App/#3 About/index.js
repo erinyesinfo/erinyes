@@ -23,7 +23,7 @@ const About = () => {
                         Hi I'm Hicham design lover based in Algeria. <span>I'm available for freelance work and projects</span>. I specialise in front-end design.
                         <br />
                         <div className='about-contact-btn'>
-                            <a rel="noopener noreferrer" href='https://drive.google.com/file/d/1BDH08FPcNDXUkOQmMflAP2q0HxaQCunU/view?usp=sharing' target='_blank'>View CV</a>
+                            <a rel="noopener noreferrer" href='https://drive.google.com/file/d/1a0AFS6N3Ont8lovXVTdF0uFu95daUbst/view?usp=sharing' target='_blank'>View CV</a>
                         </div>
                     </div>
                     <div className='about-me-more'>
